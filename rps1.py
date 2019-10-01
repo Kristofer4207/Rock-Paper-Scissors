@@ -53,8 +53,8 @@ while True:
 			print("Computer picked Scissors")
 			print("Rock beats Scissors")
 			playerScore += 1
-		elif choice == "p":
-			print(name + "Picked Paper")
+	elif choice == "p":
+		print(name + "Picked Paper")
 		if computerChoice== "p": #Tie
 			print("Computer picked Paper")
 			print("This is a tie")
@@ -67,13 +67,13 @@ while True:
 			print("Computer picked Rock")
 			print("Paper beats Rock")
 			playerScore += 1
-		elif choice = "s"
-			print(name + "Picked Scissors")
+	elif choice == "s":
+		print(name + "Picked Scissors")
 		if computerChoice== "s":
 			print("Computer picked Scissors")
 			print("This is a tie")
 			ties = ties + 1
-		else if computer choice == "r":
+		elif computerChoice == "r":
 			print("Computer picked Rock")
 			print("Rock beats Scissors")
 			computerScore += 1
